@@ -14,7 +14,6 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import axios from "axios";
 
-
 const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 
 export default function WeatherApp() {
